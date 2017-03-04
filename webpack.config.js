@@ -8,6 +8,14 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: 'app/components/Main.jsx',
+      Header: 'app/components/Header.jsx',
+      Footer: 'app/components/Footer.jsx',
+      Map: 'app/components/Map.jsx',
+      Detail: 'app/components/Detail.jsx',
+
+
+
+
       Nav: 'app/components/Nav.jsx',
       Weather: 'app/components/Weather.jsx',
       WeatherForm: 'app/components/WeatherForm.jsx',
@@ -15,6 +23,7 @@ module.exports = {
       About: 'app/components/About.jsx',
       Examples: 'app/components/Examples.jsx',
       openWeatherMap: 'app/api/openWeatherMap.jsx'
+
     },
     extensions: ['', '.js', '.jsx']
   },
