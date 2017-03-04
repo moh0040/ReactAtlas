@@ -1,24 +1,27 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Well  } from 'react-bootstrap';
 import GoogleMap from '../GoogleMap/GoogleMap.js';
 
 
 
-var Header = (props) => {
-  return (
-    <Well className="map" >
-	    <div style={{ height: '50vh' }}>
-	      <GoogleMap
-	       containerElement={
-	        <div style={{ height: '100%' }} />
-	       }
-	       mapElement={
-	        <div style={{ height: '100%' }} />
-	       }
-	      />
-	    </div>
-    </Well >
-  )
-};
+class Map extends Component {
 
-module.exports = Header;
+  render() {
+    return (
+      <Well className="map" >
+     <div style={{ height: '50vh' }}>
+      <GoogleMap
+       containerElement={
+        <div style={{ height: '100%' }} />
+       }
+       mapElement={
+        <div style={{ height: '100%' }} />
+       }
+      />
+     </div>
+     </Well >
+    );
+   }
+  }
+
+module.exports = Map;

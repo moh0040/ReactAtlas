@@ -5,13 +5,14 @@ var Header = require('Header');
 var Footer = require('Footer');
 var Map = require('Map');
 var Detail = require('Detail');
-
+var MapBus = require('MapBus');
 
 
 var Main = require('Main');
 var Weather = require('Weather');
 var About = require('About');
 var Examples = require('Examples');
+
 
 import { Grid, Row, Col  } from 'react-bootstrap';
 // var Header = require('Header');
@@ -31,9 +32,8 @@ ReactDOM.render(
           <Row className="show-grid">
             <Col xs={18} md={12}><code>
 
-                <Header/>
-                <Detail/>
-                <Map/> 
+
+                <MapBus/>
                 <Footer/>
 
 

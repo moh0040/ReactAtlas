@@ -12,6 +12,7 @@ module.exports = {
       Footer: 'app/components/Footer.jsx',
       Map: 'app/components/Map.jsx',
       Detail: 'app/components/Detail.jsx',
+      MapBus: 'app/components/MapBus.jsx',
 
 
 
